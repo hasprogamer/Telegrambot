@@ -40,3 +40,8 @@ ${msg.text}`;
     bot.sendMessage(ADMIN_ID, forwardMsg, { parse_mode: 'Markdown' });
   }
 });
+const confirmationMsg = `Merci pour ton message ! L’administration va le traiter sous peu. 
+Tu peux continuer à poser d’autres questions si besoin.`;
+    bot.sendMessage(chatId, confirmationMsg);
+  }
+});
