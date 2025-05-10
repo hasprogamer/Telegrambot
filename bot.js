@@ -17,7 +17,7 @@ bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `Bienvenue sur le bot officiel du groupe :
 *J'apprends à programmer en HTML, CSS, JS, PHP, MySQL*
 
-Tu peux poser ici ta question de programmation.
+Tu peux ecrit ton probleme ici suivi de ton numero whastapp et nous esseyerons de vous aider
 
 Merci de commencer ton message par ton nom *Facebook ou WhatsApp* pour qu’on puisse te retrouver plus facilement.`;
   bot.sendMessage(msg.chat.id, welcomeMessage, { parse_mode: 'Markdown' });
